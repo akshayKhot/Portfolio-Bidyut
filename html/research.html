@@ -1,0 +1,76 @@
+<html>
+<head>
+  <title>Bidyut Bikash</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+  <meta charset='utf-8'>
+</head>
+
+<body>
+
+<header>
+  <img id='uvic' src='../images/uvic.jpg' width="120px" height="157px">
+  <h1> Bidyut Bikash Goswami</h1>
+
+</header><!-- /header -->
+
+  <nav> 
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="research.html"><li class='select'>Research</li></a>
+      <a href="cv.html"><li>CV</li></a>
+      <a href="publications.html"><li>Publications</li></a>
+      <a href="gallery.html"><li>Gallery</li></a>
+      <a href="contact.html"><li>Contact</li></a>
+    </ul>
+  </nav>
+
+<div id='wrap'>
+  
+  <div id="col2">
+
+  
+  <div id="r_head">
+  <h1> Multiscale Multicloud Parameterization </h1>
+  <h2>To improve the Indian Summer Monsoon weather and climate through better organized tropical convection 
+in the NCEP Climate Forecast System simulations</h2>
+  </div>
+
+<div id='research'>
+  <p>It is well known that the large scale organized convection is comprised of clouds of different scales and it is a manifestation of interaction across scales. The search for methods of adequately addressing the interactions across temporal and spatial scales between the large- scale circulation and organized cloud systems, from individual clouds to large-scale clusters and superclusters to planetary-scale disturbance, has not been totally fruitless. Cloud-resolving models on fine computational grids and high-resolution numerical weather prediction models with improved convective parameterizations succeed in representing some aspects of organized convection (Grabowski 2003; Moncrieff et al. 2007). However, because of their extremely high computational cost, these methods cannot be applied to large ensemble-size weather prediction or climate simulations. There were some recent efforts with global cloud resolving model NICAM to resolve the mesoscale cloud clusters (Sato et al. 2009, Kitoh and Kusunoki 2007 ) which showed promise of capturing the tropical intraseasonal variability. Nonetheless computationally inexpensive GCM parameterizations that capture the variability and coherent structure of deep convection have remained a central unsolved problem in the atmospheric community.</p>
+  
+  <p>The most common conventional cumulus parameterizations are based on the quasi- equilibrium (QE) assumption first postulated by Arakawa and Schubert (1974), the moist convective adjustment idea of Manabe et al. (1965), or large-scale moisture convergence closure of the Kuo (1974) type. As such, the mean response of unresolved modes on large-scaleâ€“ resolved variables is formulated according to a prescribed deterministic closure. While many recipes for the closures have been created (Kain and Fritsch 1990; Betts and Miller 1986; Zhang and McFarlane 1995), these purely deterministic parameterizations were found to be inadequate for the representation of the highly intermittent and organized tropical convection (Palmer 2001). Many of the improvements in GCMs of the last decade came from the relaxation of the QE assumption, for example, through the addition of a stochastic perturbation. Buizza et al. (1999) used a stochastic backscattering model to represent the model uncertainties in a GCM; Lin and Neelin (2003) used a stochastic parameterization to randomize the way in which deep convection responds to large fluctuations via a prescribed probability distribution function for the convective time scale. </p>
+  
+  <p>Majda and Khouider (2002) were the first to propose a stochastic model for convective inhibition (CIN) that allows both internal interactions between convective elements and two- way interactions between the convective elements and the large-scaleâ€“resolved variables. Their model is based on an Ising-type spinâ€“flip model used as a model for phase transitions in material science (Katsoulakis et al. 2003a). When coupled to a toy GCM, this stochastic parameterization produced eastward propagating convectively coupled waves that qualitatively resemble observations (Khouider et al. 2003; Majda et al. 2008) despite the extreme simplicity of the model and deficiency of the underlying convective parameterization. Stochastic processes have been used to parameterize convective momentum transport (Majda and Stechmann 2008) and to improve conceptual understanding of the transition to deep convection through critical values of column water vapor (Stechmann and Neelin 2011), as well as for the analysis of cloud cover data in the tropics and the extratropics (Horenko 2011). The stochastic multicloud model (SMCM) for tropical convection introduced by Khouider et al. (2010, hereafter KBM10) is a novel approach to the problem of missing tropical variability in GCMs. The stochastic parameterization is based on a Markov chain lattice model where each lattice site is either occupied by a cloud of a certain type (congestus, deep, or stratiform) or it is a clear sky site. The convective elements interact with the large-scale environment and with each other through convective available potential energy (CAPE) and middle troposphere dryness. When local interactions between the lattice sites are ignored, a coarse-grained stochastic process that is intermediate between the microscopic dynamics and the mean field equations (Katsoulakis et al. 2003a; Khouider et al. 2003; Majda et al. 2008) is derived in KBM10 for the dynamical evolution of the cloud area fractions. Local interactions can be easily incorporated into the coarse-grained sctochastic multicloud model provided such interactions between cloud-types are understood (Khouider 2013). However, despite the lack of local interactions, the SMCM showed a high skill in representing the multiscale organization of convectively coupled waves, the convective intermittent variability of convective precipitation, and the mean Walker circulation in a simple setting of a 2D flow above the equator (Frenkel et al. 2012a, 2013). Besides deep convection, the stochastic multicloud model includes both low-level moisture preconditioning through congestus clouds and the direct effect of stratiform clouds including downdrafts that cool and dry the boundary layer. The design principles of the multicloud parameterization framework are extensively explored in the deterministic version of the model developed by Khouider and Majda (2006a, b, 2007, 2008a,b; hereafter KM06a, KM06b, KM07, KM08a, and KM08b, respectively). The deterministic multicloud model is very successful in capturing the scale-selective instabilities of tropical convection and the very complex zonal and vertical structure (the famous backward tilt) of convectively coupled waves (KM06a,b, KM08a,b), including some of the associated multiscale organization features and variability (KM07,KM08a). When used in a GCM (the new NCAR's spectral element atmospheric model (HOMME)), it reproduce a realistic MJO and most of the convectively coupled waves spectrum at the coarse resolution of 170 km (Khouider et al. 2011). Unlike other theories that are based on wave-CISK or WISHE, the multi-cloud models aim at the essential interactions between the three main cloud-types that characterize mesoscale convective systems that are not actually resolved by GCMs.</p>
+  
+  <p>The deterministic multicloud model is successfully used to study the parameterization of convective momentum transport (Majda and Stechmann, 2008; Khouider et al. 2010b), the evolution of meso- and synoptic scale convectively coupled waves in the MJO background (Han and Khouider 2010; Khouider et al. 2012), and the diurnal cycle over land and over the ocean (Frenkel et al. 2011a,b; 2012b). To make it adaptable to the land situation, the multicloud model is coupled to a dynamical boundary layer (Waite and Khouider, 2009, hereafter WK09).</p>
+
+  <h3> Multicloud model for different phases of ISM , northward propagation and tropical waves </h3>
+
+  <p>While the multiscale multicloud parameterization has been utilized to demonstrate the merits of including the interactions of different cloud scale and processes in the large scale organized convection of tropics, the question of how such scale interactions improve different modes of Indian summer monsoon convection anomalies and associated rainfall and its northward propagation remained unexplored. Addressing this new approach of convection parameterization for different facets of ISM is the key objective of my research.</p>
+  <p>Recent analysis of observations over the warm pool in the Tropics reveals the ubiquity of three cloud types above the boundary layer: shallow/congestus clouds, stratiform clouds, and deep penetrative cumulus clouds (Lin and Johnson 1996; Johnson et al. 1999). Furthermore, recent analysis of observed convectively coupled waves on the large scales reveals a similar multicloud convective structure with leading congestus cloud decks that moisten and precondition the lower troposphere followed by deep convection and finally trailing decks of stratiform precipitation; this structure applies to the eastward propagating convectively coupled Kelvin waves (Wheeler and Kiladis 1999; Straub and Kiladis 2002) and westward-propagating two-day waves (Haertel and Kiladis 2004), which reside on equatorial synoptic scales of order 1000 to 3000 km in the lower troposphere as well as the planetary-scale Maddenâ€“Julian oscillation (MJO; Dunkerton and Crum 1995; Kiladis et al. 2005; Zhang 2005). Moreover, even if the trimodality is not always evident in nature as seen recently in studies of satellite data for the MJO where the cloud tops follow rather a continuous spectrum, the three cloud-type approach could be viewed as a crude approximation for this continuous spectrum, in the context of a two vertical mode model. Moreover, the stochastic persistence of shallow/congestus clouds in the suppressed/pre- initiation phase, deep convection in the center of the active phase, and stratiform cloud decks in the westerly-wind/mature phase of the MJO and of synoptic scale convectively coupled waves is well documented (Mapes et al. 2006).</p>
+  <p>The understanding of convectively coupled tropical waves is particularly important for Indian Summer Monsoon as recently Neena et al (2011) unravel a new process in which westward propagating convectively coupled planetaryâ€scale equatorial Rossby (PSER) waves emanating from the eastern Pacific as a remnant of Maddenâ€Julian Oscillation (MJO), interact with the monsoon intraseasonal oscillation (MISO), modulate the active/break spells, and thereby influence the seasonal mean.</p>
+  <p>Keeping the above mentioned importance into account, the central role of three multicloud types, congestus, stratiform, and deep convective cumulus clouds, in the dynamics of large-scale convectively coupled Kelvin waves, westward- propagating two-day waves, and the Maddenâ€“Julian oscillation needs to be investigated. We are trying to explore the tropical waves and their interaction with monsoon using a systematic model convective parameterization highlighting :</p>
+  <ul>
+    <li>The dynamic role of the three cloud types will be utilized here through two baroclinic modes of vertical structure: a deep convective heating mode and a second mode with low-level heating and cooling corresponding respectively to congestus and stratiform clouds.</li>
+    <li>Through a systematic moisture equation where the lower troposphere moisture increases through detrainment of shallow cumulus clouds, evaporation of stratiform rain, and moisture convergence and decreases through deep convective precipitation</li>
+  </ul>
+
+
+  </div> <!-- End of research -->
+
+
+
+
+    
+
+
+    
+  </div>  <!-- End of col2 -->
+</div>  <!-- End of wrap -->
+
+
+
+</body>
+</html>

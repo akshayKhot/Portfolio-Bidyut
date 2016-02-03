@@ -1,0 +1,229 @@
+html, body, div{
+  
+  margin: 0;
+  padding: 0;
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  
+}
+
+header{
+  background-color: black;
+  padding: 15px 15px 0 15px;
+  height: 120px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#uvic{
+  float: left;
+  position: absolute;
+  left: 70px;
+}
+
+header h1{
+  margin: 20px 0 10px 0;
+  font-family: 'Droid Serif', Georgia, Times, serif;
+  color: #fffffa;
+  font-weight: bolder;
+}
+
+nav{
+  background-color: #343;
+  text-align: center;
+  background-color: black;
+}
+nav ul{
+  margin:0;
+}
+
+nav ul li{
+  background-color: #fff;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin:  0 10px;
+  border-radius: 10px;
+  width: 95px;
+  font-size: 1.1em;
+  font-weight: bolder;
+  box-shadow: 7px 7px 13px -2px rgba(0,0,0,0.75);
+}
+
+a{
+  text-decoration: none; 
+  color: #000;
+}
+nav ul a{
+  color: #000;   
+}
+nav ul li:hover{
+  background-color: #ffff66; 
+  color: black;
+}
+
+.select a{
+  font-family: 'Droid Serif', Georgia, Times, serif;
+}
+.select{
+  background-color: #33b9ff;
+  color: white;
+}
+
+#wrap{
+  background-image: url('../images/concrete.png');
+}
+
+
+
+
+
+#col2{
+  margin: 5px auto 0 auto;
+  padding: 10px; 
+  width: 70%; 
+  min-height: 620px;
+  background-image: url('../images/wrap.png');
+  border: 1px solid #eee;
+  //box-shadow: 7px 7px 13px -2px rgba(0,0,0,0.75);
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  
+   
+}
+#col2 p{
+  line-height: 1.5em;
+  word-spacing: 0.5px;
+  font-size: 1.2em;
+}
+#bid_img{
+  border-radius: 100%;
+  float: right;
+  margin: 10px;
+  border: 2px solid #333;
+}
+
+.f_right{
+  float: right;
+  line-height: 1.5em;
+  font-family: 'Droid Serif', Georgia, Times, serif;
+  border: 1px solid #bbc;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#wrap .f_right{
+  position: relative;
+  top: -80px;
+  left: -90px;
+}
+
+#col2 ul li{
+  margin: 5px;
+}
+
+.deco{
+  font-size: 1.4em;
+}
+
+
+
+
+
+
+footer{
+  clear: both;
+  height: 70px;
+  background-color: #343;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  background-image: url('../images/footer.png');
+}
+
+
+/* Research Page */
+#r_head{
+  text-align: center;
+}
+
+#r_head h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+#r_head h2{
+  font-size: 24px;
+}
+#research h3{
+  font-size: 20px;
+  color: #794044;
+  font-weight: bolder;
+
+}
+
+#research{
+  border: 1px solid #bbb;
+  padding: 8px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#papers h1{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #aaa;
+  font-weight: bolder;
+}
+#papers li{
+  padding-bottom: 10px;
+  line-height: 1.5em;
+}
+
+
+#centered{
+  text-align: center;
+}
+#cv h1{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #aaa;
+  color: ;
+  font-family: 'Dancing Script', Georgia, Times, serif;
+  font-size: 40px;
+}
+#cv li{
+  padding-bottom: 10px;
+  line-height: 1.5em;
+}
+
+.big{
+  font-size: 1.2em;
+}
+
+.underline{
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 5px;
+}
+
+
+
+
+#contact{
+  text-align: center;
+}
+
+#contact h1{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 35px;
+  font-family: 'Corben', Georgia, Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
